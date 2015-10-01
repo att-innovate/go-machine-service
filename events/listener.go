@@ -110,6 +110,10 @@ func (router *EventRouter) Start(ready chan<- bool) (err error) {
 		_, message, err := eventStream.ReadMessage()
 		if err != nil {
 			// Error here means the connection is closed. It's normal, so just return.
+			log.WithFields(log.Fields{
+				"error":        err,
+			}).Error("Failed reading message from eventStream.")
+
 			return nil
 		}
 
