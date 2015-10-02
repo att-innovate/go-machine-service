@@ -106,8 +106,10 @@ func (router *EventRouter) Start(ready chan<- bool) (err error) {
 		ready <- true
 	}
 
+	log.Info("Starting for loop")
 	for {
 		_, message, err := eventStream.ReadMessage()
+		log.Info("received message")
 		if err != nil {
 			// Error here means the connection is closed. It's normal, so just return.
 			log.WithFields(log.Fields{
