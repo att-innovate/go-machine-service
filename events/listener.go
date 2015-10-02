@@ -106,7 +106,7 @@ func (router *EventRouter) Start(ready chan<- bool) (err error) {
 		ready <- true
 	}
 
-	log.Info("Starting for loop")
+	log.Info("Starting for-loop")
 	for {
 		_, message, err := eventStream.ReadMessage()
 		if err != nil {
