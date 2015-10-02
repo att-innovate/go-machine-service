@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	tu "github.com/rancher/go-machine-service/test_utils"
+	tu "github.com/att-innovate/go-machine-service/test_utils"
 	"github.com/rancher/go-rancher/client"
 )
 

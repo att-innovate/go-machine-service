@@ -14,7 +14,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/websocket"
 
-	"github.com/rancher/go-machine-service/locks"
+	"github.com/att-innovate/go-machine-service/locks"
 	"github.com/rancher/go-rancher/client"
 )
 

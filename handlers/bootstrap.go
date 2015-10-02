@@ -5,7 +5,7 @@ import (
 	"fmt"
 	log "github.com/Sirupsen/logrus"
 	"github.com/fsouza/go-dockerclient"
-	"github.com/rancher/go-machine-service/events"
+	"github.com/att-innovate/go-machine-service/events"
 	"github.com/rancher/go-rancher/client"
 	"io/ioutil"
 	"os"

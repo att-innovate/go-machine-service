@@ -6,8 +6,8 @@ import (
 	"os"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/rancher/go-machine-service/events"
-	"github.com/rancher/go-machine-service/handlers"
+	"github.com/att-innovate/go-machine-service/events"
+	"github.com/att-innovate/go-machine-service/handlers"
 )
 
 var (

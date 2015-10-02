@@ -6,7 +6,7 @@ import (
 	b64 "encoding/base64"
 	"fmt"
 	log "github.com/Sirupsen/logrus"
-	"github.com/rancher/go-machine-service/events"
+	"github.com/att-innovate/go-machine-service/events"
 	"github.com/rancher/go-rancher/client"
 	"io"
 	"io/ioutil"

@@ -24,7 +24,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
 	"github.com/docker/machine/drivers"
-	"github.com/rancher/go-machine-service/generator/helpers"
+	"github.com/att-innovate/go-machine-service/generator/helpers"
 )
 
 func main() {

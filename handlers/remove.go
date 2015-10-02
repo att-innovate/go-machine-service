@@ -3,7 +3,7 @@ package handlers
 import (
 	"bufio"
 	log "github.com/Sirupsen/logrus"
-	"github.com/rancher/go-machine-service/events"
+	"github.com/att-innovate/go-machine-service/events"
 	"github.com/rancher/go-rancher/client"
 	"os"
 )
